@@ -1,0 +1,71 @@
+{
+	"name": "81992",
+	"parent": "null",
+	"children": [
+		{
+			"name": "OP01",
+			"parent": "81992",
+			"children": [
+				{
+					"name": "ACT01",
+					"parent": "OP01",
+					"children": [
+						{
+							"name": "MCA-0001",
+							"description": "A metal sheild",
+							"parent": "ACT01"
+						},
+						{
+							"name": "MCA-0010",
+							"description": "Another input product",
+							"parent": "ACT01"
+						}
+					]
+				},
+				{
+					"name": "ACT02",
+					"parent": "OP01",
+					"children": [
+						{
+							"name": "CM-WA001",
+							"description": "Refrigerator 220v for 345HP",
+							"parent": "ACT02"
+						},
+						{
+							"name": "CM-WA002",
+							"description": "Another resource to use in manufacturing",
+							"parent": "ACT02"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "RP01",
+			"parent": "81992"
+		},
+		{
+			"name": "OP03",
+			"parent": "81992",
+			"children": [
+				{
+					"name": "ACT01",
+					"description": "This activity contains the setup of the machines",
+					"parent": "OP03"
+				},
+				{
+					"name": "ACT02",
+					"description": "This activity produces the final good",
+					"parent": "OP03",
+					"children": [
+						{
+							"name": "MCA-0009",
+							"description": "Final output product",
+							"parent": "ACT02"
+						}
+					]
+				}
+			]
+		}
+	]
+}

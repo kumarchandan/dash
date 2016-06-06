@@ -1,0 +1,164 @@
+{
+	"name": "12420",
+	"children" : [
+	 {
+	 	"name" : "OP01",
+	 	"children": [
+	 	 {
+	 	 	"name": "ACT01",
+	 	 	"children": [
+	 	 	 {
+	 	 	 	"name": "MCA-0001",
+	 	 	 	"description": "Metal"
+	 	 	 },
+	 	 	 {
+	 	 	 	"name": "MCA-0010",
+	 	 	 	"description": "Metallic rod"
+	 	 	 },
+	 	 	 {
+	 	 	 	"name": "MCR-0025",
+	 	 	 	"description": "JSON"
+	 	 	 }
+	 	 	],
+	 	 	"resources": [
+	 	 	 {
+	 	 	 	"name": "CM-WA001",
+	 	 	 	"description": "A Heat Machine"
+	 	 	 },
+	 	 	 {
+	 	 	 	"name": "CM-WA002",
+	 	 	 	"description": "200L Refrigerator"
+	 	 	 }
+	 	 	]
+	 	 },
+	 	 {
+	 	 	"name": "ACT02",
+	 	 	"children": [
+	 	 	 {
+	 	 	 	"name": "CM-WA001",
+	 	 	 	"description": "A Heat Machine"
+	 	 	 },
+	 	 	 {
+	 	 	 	"name": "CM-WA002",
+	 	 	 	"description": "200L Refrigerator"
+	 	 	 }
+	 	 	]
+	 	 }
+	 	]
+	 },
+	 {
+	 	"name" : "OP02",
+	 	"children": [
+	 	 {
+	 	 	"name": "ACT01",
+	 	 	"resources": [
+	 	 	 {
+	 	 	 	"name": "CM-WA001",
+	 	 	 	"description": "A Heat Machine"
+	 	 	 },
+	 	 	 {
+	 	 	 	"name": "CM-WA002",
+	 	 	 	"description": "200L Refrigerator"
+	 	 	 }
+	 	 	]
+	 	 }
+	 	]
+	 },
+	 {
+	 	"name" : "OP03",
+	 	"children": [
+	 	 {
+	 	 	"name": "ACT01",
+	 	 	"resources": [
+	 	 	 {
+	 	 	 	"name": "CM-WA001",
+	 	 	 	"description": "A Heat Machine"
+	 	 	 },
+	 	 	 {
+	 	 	 	"name": "CM-WA002",
+	 	 	 	"description": "200L Refrigerator"
+	 	 	 }
+	 	 	]
+	 	 },
+	 	 {
+	 	 	"name": "ACT02",
+	 	 	"children": [
+	 	 	 {
+	 	 	 	"name": "CM-WA001",
+	 	 	 	"description": "A Heat Machine"
+	 	 	 },
+	 	 	 {
+	 	 	 	"name": "CM-WA002",
+	 	 	 	"description": "200L Refrigerator"
+	 	 	 }
+	 	 	]
+	 	 }
+	 	]
+	 },
+	 {
+	 	"name" : "RP01"
+	 },
+	 {
+	 	"name" : "OP04",
+	 	"children": [
+	 	 {
+	 	 	"name": "ACT01",
+	 	 	"resources": [
+	 	 	 {
+	 	 	 	"name": "CM-WA001",
+	 	 	 	"description": "A Heat Machine"
+	 	 	 },
+	 	 	 {
+	 	 	 	"name": "CM-WA002",
+	 	 	 	"description": "200L Refrigerator"
+	 	 	 }
+	 	 	]
+	 	 },
+	 	 {
+	 	 	"name": "ACT02",
+	 	 	"resources": [
+	 	 	 {
+	 	 	 	"name": "CM-WA001",
+	 	 	 	"description": "A Heat Machine"
+	 	 	 },
+	 	 	 {
+	 	 	 	"name": "CM-WA002",
+	 	 	 	"description": "200L Refrigerator"
+	 	 	 }
+	 	 	]
+	 	 }
+	 	]
+	 },
+	 {
+	 	"name" : "OP05",
+	 	"children": [
+	 	 {
+	 	 	"name": "ACT01",
+	 	 	"children": [
+	 	 	 {
+	 	 	 	"name": "CM-WA001",
+	 	 	 	"description": "A Heat Machine"
+	 	 	 },
+	 	 	 {
+	 	 	 	"name": "CM-WA002",
+	 	 	 	"description": "200L Refrigerator"
+	 	 	 }
+	 	 	]
+	 	 },
+	 	 {
+	 	 	"name": "ACT02"
+	 	 },
+	 	 {
+	 	 	"name": "ACT03",
+	 	 	"children": [
+	 	 	 {
+	 	 	 	"name": "MCA-0009",
+	 	 	 	"description": "Final Output Product"
+	 	 	 }
+	 	 	]
+
+	 	 }
+	 	]
+	 }
+	]
+}

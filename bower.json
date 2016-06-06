@@ -1,0 +1,25 @@
+{
+  "name": "dash",
+  "description": "dashboard",
+  "main": "app.js",
+  "authors": [
+    "K.Chan <chandankumar99341@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "dashboard"
+  ],
+  "homepage": "index.ejs",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "^3.5.17",
+    "bootstrap-material-design": "^0.5.9"
+  }
+}

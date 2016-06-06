@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>dash-board</title>
+  </head>
+  <!-- <link rel="stylesheet" type="text/css" href="/bower_components/css/font-awesome.min.css"> -->
+
+  <link rel='stylesheet' href='bower_components/bootstrap/dist/css/bootstrap.min.css' />
+
+   <!-- Material Design fonts -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+
+
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.css">
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap-material-design/dist/css/ripples.min.css">
+
+  <link rel="stylesheet" type="text/css" href="public/css/tree.css">
+  <link rel="stylesheet" type="text/css" href="public/css/index.css">
+
+  <body>
+    <% include nav.ejs %>
+    <div class="fluid-container">
+
+      <div class="row">
+
+        <div class="col-md-3">
+          <div class="btn-group-vertical">
+            <a href="#" class="active btn btn-raised" id="production">Production Order</a>
+            <a href="#" class="btn btn-raised" id="inventory">Inventory</a>
+            <a href="#" class="btn btn-raised" id="site">Site Logistics</a>
+            <a href="#" class="btn btn-raised">Bill of Operations</a>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+
+          <div id="msgs"></div>
+
+
+          <label for="doc">Production Order:</label>
+          <input id="doc" type="text" class="form-control col-md-3" placeholder="Search">
+          <br />
+          <br />
+
+          <div class="visuals"></div>
+
+          <div class="pagination">
+            <ul class="pager">
+              <li class="previous"><a id="prev" href="#">← Prev</a></li>
+              <li class="next"><a id="next" class="withripple" href="#">Next →</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="col-md-3 form-group">
+          <ul>
+            <li>Created On: 23-04-2015</li>
+            <li>Created By: KJACOB</li>
+            <li>Status: Released</li>
+            <li>Due Date: 12.05.2015</li>
+          </ul>
+        </div>
+
+
+      </div>  <!-- row -->
+
+    </div>  <!-- container -->
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bower_components/d3/d3.min.js"></script>
+    <script type="text/javascript" src="public/js/d3/tree.js"></script>
+    <script type="text/javascript" src="public/js/index.js"></script>
+  </body>
+</html>
